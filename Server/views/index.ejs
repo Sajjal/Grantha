@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Grantha | Database as a Service</title>
+    <link rel="shortcut icon" href="/images/icon.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>S & D GRANTHA!</h1>
+      <div class="notification" id="loginMessage"></div>
+      <div id="navbar" style="display: none"><%- include('./partials/navbar')%></div>
+      <div id="signupLogin" style="display: none"><%- include('./partials/signupLogin')%></div>
+      <div id="dashboard" style="display: none"><div class="display" id="projectList"></div></div>
+      <div id="addProject" style="display: none"><%- include('./partials/addProject')%></div>
+      <div id="manageProject" style="display: none"><%- include('./partials/manageProject')%></div>
+      <div id="exploreProject" style="display: none"><%- include('./partials/exploreProject')%></div>
+      <div id="help" style="display: none"><%- include('./partials/help')%></div>
+      <div class="loading" id="loading" style="display: none"><img src="/images/loading.svg" /></div>
+      <div class="footer">S & D Grantha | Database as a Service | github: @Sajjal</div>
+    </div>
+    <script src="/js/ejs.min.js"></script>
+    <script src="/js/viewController.js"></script>
+  </body>
+</html>

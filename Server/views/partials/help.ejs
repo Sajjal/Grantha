@@ -1,0 +1,67 @@
+<div class="projectGrid">
+  <div class="txtbox">
+    <h3>Help with Online System:</h3>
+    <hr />
+    <ul>
+      <li>Click on "Add Project" and Provide: Project name, database name, database username and database password.</li>
+      <br />
+      <li>
+        Click on "Manage Button" to view the API key. Keep the API key in a safe place. Remember you can only view the API key
+        once.
+      </li>
+      <br />
+      <li>Click on "Explore Button" to view Database Statistics, Database Collections and Database Records.</li>
+      <br />
+      <li>You can delete any database records by clicking 🚫 icon. System will not warn you before deleting the record.</li>
+      <br />
+      <li>
+        Click on "Manage Button" and provide new database username and database password to update the database user. It will
+        invalidate the previous API key.
+      </li>
+      <br />
+      <li>
+        Click on "Manage Button" and click on Delete Project to delete the project and drop the database. System will warn you
+        once.
+      </li>
+    </ul>
+  </div>
+  <div class="txtbox">
+    <h3>Help with API:</h3>
+    <hr />
+    <ul>
+      <li>Add new Project and copy the API key.</li>
+      <br />
+      <li>
+        Add grantha API package to your project by:
+        <pre>npm i grantha</pre>
+      </li>
+
+      <li>
+        Use the grantha API to communicate with grantha Server. Example:
+        <pre>
+const  db = require("grantha");
+const  token = "aab5feca1e";
+const  record = {
+  token: token,
+  collection: "userInfo",
+  data: {
+          name: "John",
+          age: "20",
+        },
+  };
+          
+  db.addData(record);
+          
+// Adds {name: "John", age: "20"} to the "UserInfo" collection
+
+</pre
+        >
+      </li>
+
+      <li>
+        For the full documentation, Visit:
+        <pre>https://www.npmjs.com/package/grantha</pre>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,37 @@
+{
+  "name": "grantha-database-as-a-service",
+  "version": "1.0.0",
+  "description": "It is a web-based lightweight Database as a Service (DBaaS) application that allows easy and automatic sharing of one of the most popular NoSQL database, MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "mognodb",
+    "database as a service",
+    "DBAS",
+    "mongodb as a service",
+    "mrsajjal",
+    "mrsajjal dbas",
+    "nosql dbas",
+    "grantha"
+  ],
+  "author": "Sajjal Neupane {https://mrsajjal.com}",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "monk": "^7.3.1"
+  },
+  "bugs": {
+    "url": "https://github.com/sajjal/grantha/issues"
+  },
+  "homepage": "https://github.com/sajjal/grantha#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

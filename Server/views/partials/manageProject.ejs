@@ -1,0 +1,37 @@
+<div class="projectGrid">
+  <div class="txtbox" id="updateDBUserSection">
+    <strong>Update Database User!</strong>
+    <hr />
+    <form id="updateUserForm">
+      <div>
+        <input type="text" name="dbUser" placeholder="  DB Username..." required />
+      </div>
+      <div>
+        <input type="password" name="dbPass" placeholder="  DB Password..." required />
+      </div>
+      <div>
+        <input type="hidden" name="dbID" id="dbID" required />
+      </div>
+      <div>
+        <button class="btn" id="updateDBUserButton">Update !</button> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <strong id="updateUserMessage"></strong>
+      </div>
+    </form>
+  </div>
+  <div class="txtbox" id="dangerZone">
+    <strong>Danger Zone!</strong>
+    <hr />
+    <div>
+      <button class="btn btn_edit_group" id="viewAPIKeyButton">View API Key !</button>
+      <button class="btn btn_edit_group btn_delete" id="deleteProjectButton">Delete Project !</button>
+    </div>
+    <br />
+    <hr />
+    <p id="viewAPIKeyMessage" class="longText"></p>
+    <button class="btn" id="generateNewAPIKeyButton" style="display: none">Generate New API Key !</button>
+    <strong id="deleteProjectMessage" style="display: none; color: #db2a07">Are you sure to Delete?</strong>&nbsp; &nbsp;
+    &nbsp;&nbsp; &nbsp;
+    <button class="btn btn_delete" id="confirmDeleteProjectButton" style="display: none">Confirm Delete !</button>
+  </div>
+  <strong id="projectDeletedMessage"></strong>
+</div>

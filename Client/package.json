@@ -1,0 +1,29 @@
+{
+  "name": "grantha",
+  "version": "1.0.6",
+  "description": "This is an API to connect with Grantha Server: https://db.mrsajjal.com",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajjal/grantha.git"
+  },
+  "keywords": [
+    "mognodb",
+    "database as a service",
+    "DBAS",
+    "mongodb as a service",
+    "mrsajjal",
+    "mrsajjal dbas",
+    "nosql dbas",
+    "grantha"
+  ],
+  "author": "Sajjal Neupane {https://mrsajjal.com}",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sajjal/grantha/issues"
+  },
+  "homepage": "https://github.com/sajjal/grantha#readme",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
